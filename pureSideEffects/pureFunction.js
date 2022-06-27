@@ -12,6 +12,6 @@ function generateId(userName) {
   
   function generateId(userName) {
     const id = 'id_' + userName;
-    lastAssignedId = id;
+    lastAssignedId = id; //this is a side effect
     return id;
   }
